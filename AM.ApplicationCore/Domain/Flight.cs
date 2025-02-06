@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AM.ApplicationCore.Domain
+﻿namespace AM.ApplicationCore.Domain
 {
     public class Flight
     {
@@ -19,7 +13,7 @@ namespace AM.ApplicationCore.Domain
 
         public override string ToString()
         {
-            return ("FlightId : " + this.FlightId+" Destination "+ this.Destination + " \n");
+            return ("FlightId : " + this.FlightId+" Destination "+ this.Destination + " EstimatedDuration  " + this.EstimatedDuration + " \n");
         }
 
     }

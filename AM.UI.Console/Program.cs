@@ -1,4 +1,5 @@
 ﻿using AM.ApplicationCore.Domain;
+using AM.ApplicationCore.Services;
 
 Plane plane1 = new Plane();
 plane1.Capacity = 100;
@@ -13,16 +14,51 @@ Console.WriteLine("Initialisateur d'objet : " + plane3.ToString());
 Plane plane4 = new Plane { };
 Console.WriteLine("Initialisateur d'objet vide : " + plane4.ToString());
 // using initialisation from now no more constructeur 
-Passenger passenger = new Passenger { FirstName = "kacem", LastName = "zormati", EmailAddress = "a@b.c" };
+Passenger passenger = new Passenger { FirstName = "hend", LastName = "zormati", EmailAddress = "a@b.c" };
 Console.WriteLine(passenger.ToString());
-Console.WriteLine(passenger.CheckProfile("kacem", "Abdelbaki") + "\n");
-Console.WriteLine(passenger.CheckProfile("kacem", "not") + "\n");
-Console.WriteLine(passenger.CheckProfile("kacem", "Abdelbaki", "a@b.c") + "\n");
-Console.WriteLine(" CHeck with mail : \n " + passenger.CheckProfileComplete("kacem", "Abdelbaki", "a@b.c") + "\n");
-Console.WriteLine(" CHeck without mail : \n " + passenger.CheckProfileComplete("kacem", "Abdelbaki") + "\n");
-Staff staff = new Staff { FirstName = "Staff", LastName = "Abdelbaki", Function = "staff" };
-Traveller traveller = new Traveller { FirstName = "Traveller", LastName = "Abdelbaki", Nationality = "tunisian" };
+Console.WriteLine(passenger.CheckProfile("hend", "zormati") + "\n");
+Console.WriteLine(passenger.CheckProfile("hend", "not") + "\n");
+Console.WriteLine(passenger.CheckProfile("hend", "zormati", "a@b.c") + "\n");
+Console.WriteLine(" CHeck with mail : \n " + passenger.CheckProfileComplete("hend", "zormati", "a@b.c") + "\n");
+Console.WriteLine(" CHeck without mail : \n " + passenger.CheckProfileComplete("hend", "zormati") + "\n");
+Staff staff = new Staff { FirstName = "Staff", LastName = "zormati", Function = "staff" };
+Traveller traveller = new Traveller { FirstName = "Traveller", LastName = "zormati", Nationality = "tunisian" };
 Console.WriteLine(staff.ToString());
 staff.PassengerType();
 Console.WriteLine(traveller.ToString());
 traveller.PassengerType();
+
+// td 2 ;
+FlightMethods fm = new FlightMethods { flights = TestData.listFlights };
+string destination = "Paris";
+Console.WriteLine(" List Dates de la destination " + destination + "  : \n ");
+List<DateTime> list = new List<DateTime> { };
+list = (List<DateTime>)fm.GetFlightDates(destination);
+// using foreach loop
+foreach (DateTime d in list)
+{
+    Console.WriteLine(" Flight Date : " + d);
+}
+
+// Question 10
+Console.WriteLine("\nQuestion 10 :");
+fm.ShowFlightDetails(TestData.Airbusplane);
+fm.ShowFlightDetails(TestData.BoingPlane);
+
+// Question 11
+Console.WriteLine("\nQuestion 11 :");
+Console.WriteLine(fm.ProgrammedFlightNumber(new DateTime(2022, 01, 01, 10, 10, 10)));
+
+// Question 12
+Console.WriteLine("\nQuestion 12 :");
+Console.WriteLine(fm.DurationAverage(TestData.flight4.Destination));
+
+// Question 13
+Console.WriteLine("\nQuestion 13 :");
+foreach (var f in fm.OrderedDurationFlights())
+{
+    Console.WriteLine(f);
+}
+
+// Question 14
+Console.WriteLine("\nQuestion 14 :");

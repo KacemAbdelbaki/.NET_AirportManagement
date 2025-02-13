@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Studies\\.NET\\AirportManagement\\AirportManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A52921C1-ED44-4026-945B-9C349D6A56A6}|..\\AM.UI.Console\\AM.UI.Console.csproj|d:\\studies\\.net\\airportmanagement\\am.ui.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3418CA-0B4F-40F4-8C5C-4909041F9D9B}|..\\AM.ApplicationCore\\AM.ApplicationCore.csproj|d:\\studies\\.net\\airportmanagement\\am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3418CA-0B4F-40F4-8C5C-4909041F9D9B}|..\\AM.ApplicationCore\\AM.ApplicationCore.csproj|d:\\studies\\.net\\airportmanagement\\am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3418CA-0B4F-40F4-8C5C-4909041F9D9B}|..\\AM.ApplicationCore\\AM.ApplicationCore.csproj|d:\\studies\\.net\\airportmanagement\\am.applicationcore\\am.applicationcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AM.ApplicationCore.csproj",
+              "DocumentMoniker": "D:\\Studies\\.NET\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+              "RelativeDocumentMoniker": "..\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+              "ToolTip": "D:\\Studies\\.NET\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+              "RelativeToolTip": "..\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-12T19:56:50.486Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFlightMethods.cs",
+              "DocumentMoniker": "D:\\Studies\\.NET\\AirportManagement\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "RelativeDocumentMoniker": "..\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "ToolTip": "D:\\Studies\\.NET\\AirportManagement\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "RelativeToolTip": "..\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T08:20:17.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FlightMethods.cs",
+              "DocumentMoniker": "D:\\Studies\\.NET\\AirportManagement\\AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "RelativeDocumentMoniker": "..\\AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "ToolTip": "D:\\Studies\\.NET\\AirportManagement\\AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "RelativeToolTip": "..\\AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T08:14:42.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Studies\\.NET\\AirportManagement\\AM.UI.Console\\Program.cs",
+              "RelativeDocumentMoniker": "..\\AM.UI.Console\\Program.cs",
+              "ToolTip": "D:\\Studies\\.NET\\AirportManagement\\AM.UI.Console\\Program.cs",
+              "RelativeToolTip": "..\\AM.UI.Console\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:57:58.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

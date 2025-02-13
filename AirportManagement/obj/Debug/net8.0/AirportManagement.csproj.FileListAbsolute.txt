@@ -1,0 +1,4 @@
+D:\Studies\.NET\AirportManagement\obj\Debug\net8.0\AirportManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studies\.NET\AirportManagement\obj\Debug\net8.0\AirportManagement.AssemblyInfoInputs.cache
+D:\Studies\.NET\AirportManagement\obj\Debug\net8.0\AirportManagement.AssemblyInfo.cs
+D:\Studies\.NET\AirportManagement\obj\Debug\net8.0\AirportManagement.csproj.CoreCompileInputs.cache

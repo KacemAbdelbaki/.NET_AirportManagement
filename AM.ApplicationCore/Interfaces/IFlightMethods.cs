@@ -12,5 +12,7 @@ namespace AM.ApplicationCore.Interfaces
         public int ProgrammedFlightNumber(DateTime startDate);
         public float DurationAverage(string destination);
         public List<Flight> OrderedDurationFlights();
+        public List<Traveller> SeniorTravellers(Flight flight);
+        public void DestinationGroupedFlights();    
     }
 }

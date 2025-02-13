@@ -62,3 +62,19 @@ foreach (var f in fm.OrderedDurationFlights())
 
 // Question 14
 Console.WriteLine("\nQuestion 14 :");
+foreach(var f in fm.SeniorTravellers(fm.flights[0]))
+{
+    Console.WriteLine(f);
+}
+
+// Question 15
+Console.WriteLine("\nQuestion 15 :");
+fm.DestinationGroupedFlights();
+
+// Question 16
+Console.WriteLine("\nQuestion 16 :");
+Console.WriteLine("Flight details without delegate :\n");
+fm.ShowFlightDetails(TestData.BoingPlane);
+Console.WriteLine("Flight details with delegate :\n");
+fm.FlightDetailsDel(TestData.BoingPlane);
+

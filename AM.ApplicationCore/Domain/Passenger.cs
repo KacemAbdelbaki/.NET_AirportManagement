@@ -17,7 +17,7 @@ namespace AM.ApplicationCore.Domain
         public ICollection<Flight> Flights { get; set; }
         public override string ToString()
         {
-            return ("FirstName : " + this.FirstName+"\nLastName : "+ this.LastName +"\nEmailAddress : "+ this.EmailAddress  + " \n");
+            return ("FirstName : " + this.FirstName+"\nLastName : "+ this.LastName +"\nEmailAddress : "+ this.EmailAddress  + "\nAge : " + ((((((DateTime.Now - this.BirthDate).TotalHours)/24)/7)/4)/12) + " \n");
         }
         // polymorphisme 
         public bool CheckProfile(String fn,string ln)
